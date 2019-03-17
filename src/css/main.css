@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Arial' sans-serif;
+  font-size: 1rem; 
+  line-height: 1rem; 
+  margin: 0 0;
+}
+
+header {
+  padding: 1rem;
+}
+
+header h1 {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+main {
+  background-color: #EEE;
+  height: calc(100vh - 44px);
+}
+
+#village {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, .3);
+}
+.house__wrapper {
+  position: absolute;
+}
